@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 5rem;
+    padding: 2rem;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+   font-size: 20px;
+   margin-top: 5rem;
+  }
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 2rem;
+    }
+  
+p {
+    font-size: 20px
+  
+  } 
+  .btn {
+    text-decoration: none;
+    background-color:darkblue;
+    color: #fff;
+    padding: 1rem 2rem;
+  }
+
+  .btn:hover{
+    opacity: 0.5;
+  }

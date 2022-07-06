@@ -1,0 +1,55 @@
+.section{
+    padding: 8rem 0 7rem;
+    text-align: center;
+}
+
+.section-headding,
+.section-description{
+    margin-bottom: 1.2rem;
+}
+
+.showcase-img{
+    position: relative;
+    max-width: 80%;
+    margin: 3rem auto -19rem;
+}
+
+.section-a {
+   background-image:url("../img/bg1.jpg");
+   color: #fff;
+   background-size: cover;
+   padding-bottom: 5rem;
+}
+
+.section-a .fa{
+    font-size: 40px;
+    margin-bottom: 5rem;
+    color: #ddd;
+}
+.btn {
+    background-color: rgb(90, 189, 90);
+    color: #f4f4f4;
+    padding: 1rem 2rem;
+    text-decoration: none;
+}
+
+.section-a h5{
+    margin-bottom: 3rem;
+}
+
+.section-c {
+    background-image: url("../img/bg1.jpg");
+    background-size: cover;
+    color: #fff;
+}
+
+.section-c .section-description{
+    margin-bottom: 4rem;
+}
+
+@media(max-width:1000px){
+    .showcase-heading {
+        font-size: 3rem;
+        padding-top: 11rem;
+        }
+}
